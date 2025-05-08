@@ -55,12 +55,13 @@ This repository contains the source code for a production-ready restaurant websi
    ```
 
 2. **Install dependencies**:
-
+   Run this command oin `root` directory:
+   
    ```bash
    npm install
    ```
 
-3. **Set up environment variables**:
+4. **Set up environment variables**:
    Create `.env` files in both `root` directories with the following variables:
 
    ```bash
@@ -86,14 +87,14 @@ This repository contains the source code for a production-ready restaurant websi
     WEBHOOK_ENDPOINT_SECRET=
    ```
 
-4. **Build and Run the application**:
+5. **Build and Run the application**:
 
    ```bash
    npm run build 
    npm run start
    ```
 
-5. **Access the app**:
+6. **Access the app**:
    Open `http://localhost:3000` in your browser.
 
 ## Deployment
@@ -110,7 +111,7 @@ The app is deployed on **Render**. Follow these steps to deploy:
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/yರacing: true
+2. Create a new branch.
 3. Make your changes.
 4. Submit a pull request.
 
