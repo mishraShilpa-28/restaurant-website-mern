@@ -1,6 +1,6 @@
 # Food App - MERN Stack Restaurant Website
 
-This repository contains the source code for a production-ready restaurant website built using the **MERN stack** (MongoDB, Express, React, Node.js). The project guides you through creating a scalable, feature-rich application with modern tools and best practices.
+This repository contains the source code for a production-ready restaurant website built using the **MERN stack** (MongoDB, Express, React, Node.js). The project is built with  modern tools, scalable, feature-rich application and best practices.
 
 ### Live demo
 - [Live link on Render](https://restaurant-website-mern-li71.onrender.com/)
