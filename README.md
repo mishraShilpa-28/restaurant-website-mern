@@ -2,6 +2,9 @@
 
 This repository contains the source code for a production-ready restaurant website built using the **MERN stack** (MongoDB, Express, React, Node.js). The project guides you through creating a scalable, feature-rich application with modern tools and best practices.
 
+### Live demo
+- [Live link on Render](https://restaurant-website-mern-li71.onrender.com/)
+
 ## Features
 
 - **TypeScript**: Ensures type safety for robust and maintainable code.
