@@ -14,7 +14,11 @@ dotenv.config();
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = Number(process.env.PORT) || 3000;
+app.listen(PORT, "0.0.0.0", () => {
+    connectDB();
+    console.log(`Server listen at port ${PORT}`);
+});
 
 const DIRNAME = path.resolve();
 
@@ -40,7 +44,3 @@ app.use("*",(_,res) => {
     res.sendFile(path.resolve(DIRNAME, "client","dist","index.html"));
 });
 
-app.listen(PORT, () => {
-    connectDB();
-    console.log(`Server listen at port ${PORT}`);
-});
